@@ -34,7 +34,7 @@
   border-radius: 25px;
   padding: 5px;
 }
-  
+
 .pay {
   padding: 5px;
 }
@@ -142,7 +142,7 @@
 }
 
 .ready {
-  background-color:green;
+  background-color: #227c22;
   color: white;
   justify-items: center;
   border-radius: 5px;
@@ -176,7 +176,7 @@
 }
 
 .fun {
-  background-color:#f58255;
+  background-color: #f58255;
   border-radius: 15px;
   padding: 1rem;
   margin-top: 1rem;
@@ -366,8 +366,4 @@
   padding: 0.3rem;
   background-color: #fb6363;
   border-radius: 6px;
-}
-
-.team {
-  font-size: 12px;
 }
