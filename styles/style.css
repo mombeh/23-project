@@ -367,3 +367,174 @@
   background-color: #fb6363;
   border-radius: 6px;
 }
+
+@media screen and (min-width: 768px) {
+  .nav-bar  {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  #hero-section {
+    padding: 2em;
+    background-color: #f7f5f5;
+  }
+
+  ul {
+    display: flex;
+    align-items: center; 
+    gap: 1rem;
+    list-style-type: none;
+  }
+
+  .main-content {
+    display: flex;
+    width: 100%;
+  }
+
+  .content {
+    width: 50%;
+    font-size: 30px;
+  }
+
+  section {
+    border: 1px solid rgb(180, 223, 40);
+  }
+
+  .main {
+    width: 100%;
+    background-color: #f5ebeb;
+    padding: 30px;
+  }
+
+  .certain {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #fff;
+    gap: 0.5rem;
+    padding: 2rem;
+    font-size: 100%;
+  }
+
+  .container-two {
+    display: grid;
+    background-color: #f5f0f0;
+    border-radius: 13px;
+  }
+
+  .pics {
+    width: 50%;
+    height: 50%;
+  }
+
+  .page {
+    display: grid;
+    background-color: #f5f0f0;
+    border-radius: 13px;
+  }
+
+  .signs button {
+    width: 20%;
+    margin-left: -100px;
+    border: 1px;
+  }
+
+  .progres {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .fun,
+  .manage {
+    padding: 13px;
+    font-size: 25px;
+  }
+
+  .music {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .space-two,
+  .space-one,
+  .space-three{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: #fff;
+    padding: 3rem;
+  }
+
+  .header{
+    width: 100%;
+  }
+
+  .recomment {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 28px;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    gap: 1.5rem;
+  }
+
+  .paragraph {
+    width: 100%;
+    border-radius: 15px;
+  
+  }
+
+  .frequency {
+    display: grid;
+    grid-template-columns: 45% 50%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 25px;
+    border-style: 10px;
+  }
+
+  .verbals {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color:  #f37d52;
+    padding: 2rem;
+    font-size: 28px;
+  }
+
+  .menu-b {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border: none;
+    font-size: 20px;
+  }
+
+  .verbals button {
+    padding: 10px;
+    justify-items: center;
+    font-size: 20px;
+  }
+
+  .forver button {
+    margin-top: 180px;
+    border: 2px solid #ecaf7a;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .opm {
+    width: 100%;
+    border-radius: 15px;
+ 
+  }
+}
