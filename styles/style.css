@@ -363,7 +363,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .nav-bar  {
+  .nav-bar {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -377,7 +377,7 @@
 
   ul {
     display: flex;
-    align-items: center; 
+    align-items: center;
     gap: 1rem;
     list-style-type: none;
   }
@@ -432,7 +432,7 @@
     padding: 25px;
     font-size: 20px;
   }
-  
+
   .fair {
     font-size: 30px;
   }
@@ -474,13 +474,12 @@
   .part,
   .parents,
   .minute {
-    padding:;
     font-size: 17px;
   }
 
   .space-two,
   .space-one,
-  .space-three{
+  .space-three {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -490,7 +489,7 @@
     padding: 3rem;
   }
 
-  .header{
+  .header {
     width: 100%;
     padding: 20px;
     font-size: 25px;
@@ -523,7 +522,6 @@
     grid-template-columns: 50% 50%;
     font-size: 28px;
     justify-content: space-between;
-    /* background-color: #fff; */
     margin: 80px;
   }
 
