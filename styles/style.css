@@ -419,9 +419,10 @@
     font-size: 20px;
   }
 
-  .pics {
-    width: 50%;
-    height: 50%;
+  .pics img {
+    width: 200%;
+    height: 110%;
+    border-radius: 20px;
   }
 
   .page {
@@ -453,7 +454,7 @@
 
   .signs button {
     width: 20%;
-    margin-left: -100px;
+    margin-left: -120px;
     border: 1px;
   }
 
@@ -576,7 +577,7 @@
     display: grid;
     grid-template-columns: 45% 50%;
     margin: 1rem;
-    padding: 1rem;
+    padding: 2rem;
     background-color: #fff;
     border-radius: 20px;
     font-size: 25px;
@@ -625,6 +626,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 18px;
-    padding: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
   }
 }
