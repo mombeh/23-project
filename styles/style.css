@@ -228,12 +228,10 @@
 .appreciate {
   border-radius: 15px;
   margin: 25px;
-  box-shadow: 0 3px 3px #fce2e2;
 }
 
 .beauty {
   margin: 25px;
-  box-shadow: 0 3px 3px #fce2e2;
   border-radius: 15px;
 }
 
@@ -287,7 +285,6 @@
 
 .favor {
   margin: 25px;
-  box-shadow: 0 3px 3px #fce2e2;
   border-radius: 15px;
 }
 
@@ -323,19 +320,16 @@
 .congrats {
   border-radius: 15px;
   margin: 25px;
-  box-shadow: 0 3px 3px #fce2e2;
 }
 
 .welcome {
   border-radius: 15px;
   margin: 25px;
-  box-shadow: 0 3px 3px #fce2e2;
 }
 
 .handsome {
   border-radius: 15px;
   margin: 25px;
-  box-shadow: 0 3px 3px #fce2e2;
 }
 
 .master {
@@ -378,7 +372,7 @@
 
   #hero-section {
     padding: 2em;
-    background-color: #f7f5f5;
+    background-color: #dacfcf;
   }
 
   ul {
@@ -398,8 +392,8 @@
     font-size: 30px;
   }
 
-  section {
-    border: 1px solid rgb(180, 223, 40);
+  .content h6 {
+    margin-top: 35px;
   }
 
   .main {
@@ -421,6 +415,8 @@
     display: grid;
     background-color: #f5f0f0;
     border-radius: 13px;
+    padding: 25px;
+    font-size: 20px;
   }
 
   .pics {
@@ -432,6 +428,27 @@
     display: grid;
     background-color: #f5f0f0;
     border-radius: 13px;
+    padding: 25px;
+    font-size: 20px;
+  }
+  
+  .fair {
+    font-size: 30px;
+  }
+
+  .btn {
+    font-size: 19px;
+    border-radius: 13px;
+  }
+
+  .certainty-three {
+    gap: 8px;
+  }
+
+  .alone h5,
+  .sport h5 {
+    padding: 20px;
+    font-size: 19px;
   }
 
   .signs button {
@@ -453,9 +470,11 @@
     font-size: 25px;
   }
 
-  .music {
-    padding: 10px;
-    font-size: 20px;
+  .part,
+  .parents,
+  .minute {
+    padding:;
+    font-size: 17px;
   }
 
   .space-two,
@@ -472,6 +491,30 @@
 
   .header{
     width: 100%;
+    padding: 20px;
+    font-size: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .header button {
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  .view {
+    font-size: 45px;
+  }
+
+  .sign input {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .sign button {
+    font-size: 18px;
+    padding: 10px;
   }
 
   .recomment {
@@ -479,15 +522,54 @@
     grid-template-columns: 50% 50%;
     font-size: 28px;
     justify-content: space-between;
+    /* background-color: #fff; */
+    margin: 80px;
+  }
+
+  .appreciate,
+  .welcome, 
+  .congrats {
     background-color: #fff;
-    width: 100%;
-    gap: 1.5rem;
+    padding: 15px;
+  }
+
+  .favor,
+  .handsome,
+  .beauty {
+    background-color: #fff;
+    padding: 15px;
   }
 
   .paragraph {
     width: 100%;
     border-radius: 15px;
-  
+  }
+
+  .owner,
+  .saver,
+  .giver,
+  .hope,
+  .helper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ever,
+  .give,
+  .have,
+  .gave,
+  .sell {
+    color: #f48259;
+  }
+
+  .portion {
+    background-color: #f6e1e1;
+    border-radius: 20px;
+  }
+
+  .space-three {
+    background-color: #f6e1e1;
+    border-radius: 18px;
   }
 
   .frequency {
@@ -515,15 +597,16 @@
     display: flex;
     justify-content: space-between;
     background-color: #fff;
-    border: none;
-    font-size: 20px;
+    padding: 2rem;
+    font-size: 23px;
+    gap: 30px;
   }
-/* 
+
   .verbals button {
     padding: 10px;
-    justify-items: center;
-    font-size: 20px;
-  } */
+    margin: 50px;
+    border-radius: 10px;
+  }
 
   .forver button {
     margin-top: 180px;
@@ -536,5 +619,12 @@
     width: 100%;
     border-radius: 15px;
  
+  }
+
+  .conclude {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 1rem;
   }
 }
